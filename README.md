@@ -17,6 +17,7 @@ This project is designed to demonstrate SQL skills and techniques typically used
 ## Project Structure
 
 ### 1. Database Setup
+![Library_project](https://github.com/giriaman610/Music-Store-Analysis-SQL/blob/main/schema_diagram.png)
 
 - **Database Creation**: The project starts by creating a database named `MUsic_Database`.
 - **Table Creation**: Tables are created to store the sales data. The table structure includes columns for employee ID,invoice_count, billing_country, invoice, invoice_total, billing_city,customer_id, genre_id invoice_line, artist_id, best_selling_artist, track_id.
