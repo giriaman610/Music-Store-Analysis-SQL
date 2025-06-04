@@ -5,21 +5,21 @@
 **Project Title**: Music Store Analysis   
 **Database**: `MUsic_Database`
 
-This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a retail sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. This project is ideal for those who are starting their journey in data analysis and want to build a solid foundation in SQL.
+This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze  data. The project involves setting up a Music sales  database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries.
 
 ## Objectives
 
-1. **Set up a Music Store sales database**: Create and populate a Music Store sales database with the provided sales data.
+1. **Set up a Music Store sales database**: Create and populate a Music Store sales database with the provided  data.
 2. **Data Cleaning**: Identify and remove any records with missing or null values.
 3. **Exploratory Data Analysis (EDA)**: Perform basic exploratory data analysis to understand the dataset.
-4. **Business Analysis**: Use SQL to answer specific business questions and derive insights from the sales data.
+4. **Business Analysis**: Use SQL to answer specific business questions and derive insights from the sales  data of diffrent music genres.
 
 ## Project Structure
 
 ### 1. Database Setup
 
 - **Database Creation**: The project starts by creating a database named `MUsic_Database`.
-- **Table Creation**: Tables are created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
+- **Table Creation**: Tables are created to store the sales data. The table structure includes columns for employee ID,invoice_count, billing_country, invoice, invoice_total, billing_city,customer_id, genre_id invoice_line, artist_id, best_selling_artist, track_id.
 
 ```sql
 CREATE DATABASE SQL Retail Sales Analysis;
@@ -206,7 +206,7 @@ where row_num_sum<=1
 
 ## Findings
 
-- **Customer Demographics**: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
+- **Customer Demographics**: The dataset includes customers from various age groups, with sales distributed across different categories such as rock,classic and other diffrent genres etc.
 - **High-Value Transactions**: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
 - **Sales Trends**: Monthly analysis shows variations in sales, helping identify peak seasons.
 - **Customer Insights**: The analysis identifies the top-spending customers and the most popular product categories.
