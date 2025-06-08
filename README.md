@@ -9,7 +9,7 @@ This project is designed to demonstrate SQL skills and techniques typically used
 
 ## Objectives
 
-1. **Set up a Music Store sales database**: Create and populate a Music Store sales database with the provided  data.
+1. **Set up a Music Store sales database**: Create and populate the database with tables employee, invoice,genre, track,album, invoice_line, customer
 2. **Data Cleaning**: Identify and remove any records with missing or null values.
 3. **Exploratory Data Analysis (EDA)**: Perform basic exploratory data analysis to understand the dataset.
 4. **Business Analysis**: Use SQL to answer specific business questions and derive insights from the sales  data of diffrent music genres.
@@ -20,7 +20,7 @@ This project is designed to demonstrate SQL skills and techniques typically used
 ![Library_project](https://github.com/giriaman610/Music-Store-Analysis-SQL/blob/main/schema_diagram.png)
 
 - **Database Creation**: The project starts by creating a database named `MUsic_Database`.
-- **Table Creation**: Tables are created to store the sales data. The table structure includes columns for employee ID,invoice_count, billing_country, invoice, invoice_total, billing_city,customer_id, genre_id invoice_line, artist_id, best_selling_artist, track_id.
+- **Table Creation**: Tables are created to store the sales data. The table structure includes columns for employee ID, invoice_count, billing_country, invoice, invoice_total, billing_city,customer_id, genre_id , artist_id, best_selling_artist, track_id.
 
 ```sql
 CREATE DATABASE SQL Retail Sales Analysis;
